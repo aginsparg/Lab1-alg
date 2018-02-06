@@ -1,6 +1,6 @@
 package hw;
 
-public class FizzBuzz {
+public class fizzBuzz {
 
   public String getMessage() {
     return "hello world";
