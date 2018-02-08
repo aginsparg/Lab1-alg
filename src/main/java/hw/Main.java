@@ -9,7 +9,7 @@ public class Main {
       try {
         max = Integer.parseInt(args[0]);
       } catch (NumberFormatException e) {
-        System.err.println("The argument entered must be an integer ");
+        System.err.println("The argument entered must be an integer ");}
 
         for (int i = 1; i <= max; i++) {
           if (i % 3 == 0)
@@ -23,4 +23,3 @@ public class Main {
       }
     }
   }
-}
