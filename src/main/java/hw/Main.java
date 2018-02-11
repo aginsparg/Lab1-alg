@@ -10,16 +10,10 @@ public class Main {
         max = Integer.parseInt(args[0]);
       } catch (NumberFormatException e) {
         System.err.println("The argument entered must be an integer ");}
+String[]numbers = fizzBuzz.fizzBuzzArray(max);
+      for (int i=0; i<numbers.length; i++)
+        System.out.println(numbers[i]);
 
-        for (int i = 1; i <= max; i++) {
-          if (i % 3 == 0)
-            System.out.print("fizz");
-          if (i % 5 == 0)
-            System.out.print("buzz");
-          if ((i % 3 != 0) && (i % 5 != 0))
-            System.out.print(i);
-          System.out.println();
-        }
       }
     }
   }
