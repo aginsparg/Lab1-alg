@@ -1,6 +1,8 @@
 package hw;
 
 
+import java.util.List;
+
 public class Main {
 
   public static void main(final String[] args) {
@@ -10,9 +12,9 @@ public class Main {
         max = Integer.parseInt(args[0]);
       } catch (NumberFormatException e) {
         System.err.println("The argument entered must be an integer ");}
-String[]numbers = fizzBuzz.fizzBuzzArray(max);
-      for (int i=0; i<numbers.length; i++)
-        System.out.println(numbers[i]);
+List <String> numbers = fizzBuzz.fizzBuzzList(max);
+     for (int i=0; i<numbers.size(); i++)
+        System.out.println(numbers.get(i));
 
       }
     }
